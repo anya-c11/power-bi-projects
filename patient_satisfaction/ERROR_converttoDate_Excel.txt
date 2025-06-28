@@ -1,0 +1,8 @@
+Error in converting column type in ComplaintData to 'Date'
+
+https://www.reddit.com/r/excel/comments/wqya5t/date_does_not_format_until_i_click_in_the_formula/
+
+1. Type 1 in random cell and copy
+2. Select cells to convert
+3. Alt + E + S to open Paste Special
+4. Select multiply option and click ok

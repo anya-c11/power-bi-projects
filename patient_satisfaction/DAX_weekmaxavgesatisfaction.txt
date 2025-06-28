@@ -1,0 +1,5 @@
+WeekMaxAvgSatisfaction = 
+CALCULATE(
+    MAX('patient-feedback'[Week]),
+    'patient-feedback'[AverageSatisfaction] = MAX('patient-feedback'[AverageSatisfaction])
+)

@@ -1,0 +1,5 @@
+- No. of complaints over time w. most common reason (line chart)
+- Most frequent complaint overall (card)
+- Week with highest wait time acceptance % (card)
+- Week with most positive feedback on average (card) --> calculate average of percent values
+- Percent feedback over time of various factors (line chart w multiple lines and filter)

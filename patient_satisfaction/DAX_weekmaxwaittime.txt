@@ -1,0 +1,5 @@
+WeekMaxWaitTime = 
+CALCULATE(
+    MAX('patient-feedback'[Week]),
+    'patient-feedback'[Wait Time Acceptable] = MAX('patient-feedback'[Wait Time Acceptable])
+)

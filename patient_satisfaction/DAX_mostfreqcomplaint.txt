@@ -1,0 +1,7 @@
+MostFrequentComplaint = 
+VAR T1 =
+    SUMMARIZE(ComplaintData, ComplaintData[Complaint Type], "Count", COUNTROWS(ComplaintData))
+VAR MostRepeated =
+    MAXX(T1, [Count])
+RETURN
+    MAXX(T1, IF( [Count] = MostRepeated, ComplaintData[Complaint Type]))

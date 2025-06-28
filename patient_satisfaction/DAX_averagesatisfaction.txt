@@ -1,0 +1,11 @@
+AverageSatisfaction = 
+DIVIDE(
+    SUMX(
+        { [Enough Information], [Percent Would Recommend], [Respect], [Wait Time Acceptable] },
+        [Value]
+    ),
+    COUNTX(
+        { [Enough Information], [Percent Would Recommend], [Respect], [Wait Time Acceptable] },
+        [Value]
+    )
+)
