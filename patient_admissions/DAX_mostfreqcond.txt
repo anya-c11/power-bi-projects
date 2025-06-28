@@ -1,0 +1,7 @@
+MostFrequentCond = 
+VAR T1 =
+    SUMMARIZE(modified_healthcare_dataset, modified_healthcare_dataset[Medical Condition], "Count", COUNTROWS(modified_healthcare_dataset))
+VAR MostRepeated =
+    MAXX(T1, [Count])
+RETURN
+    MAXX(T1, IF( [Count] = MostRepeated, modified_healthcare_dataset[Medical Condition]))

@@ -1,0 +1,10 @@
+- Gender distribution (pie)
+- Avg. length of stay + max. length of stay (cards)
+- Filter by hospital
+- Insurance provider and average amount they bill (column)
+- Admission type distribution (donut)
+- Medical condition vs. medication prescribed
+- Avg. age (card)
+- Most frequent condition (card)
+- Admissions over time (line)
+- Total billing by condition and test results (stacked bar)
