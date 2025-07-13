@@ -1,11 +1,12 @@
 # power-bi-projects
-This repository contains a number of Power BI projects (currently in progress). It currently contains reports using healthcare data, but will also contain projects using sales and financial data as well.
+This repository contains a number of Power BI projects (currently in progress). It currently contains reports using healthcare data and another using supermarket sales data, but will also contain projects using financial data as well.
 
 **NOTE: To interact with the reports, you must have [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) downloaded.**
 
 ## Table of Contents
 - [Patient Admissions](#patientadmissions)
 - [Patient Satisfaction](#patientadmissions)
+- [Supermarket Sales Performance](#supermarketsalesperformance)
 
 ## Patient Admissions
 ### Overview
@@ -27,3 +28,14 @@ The project folder also contains DAX calculations that determine the average sat
 ### Data Sources
 Data was downloaded from Kaggle and saved locally:
 [Patient Satisfaction - Health System Dataset](https://www.kaggle.com/datasets/gabrielsantello/patient-satisfaction-health-system-dataset)
+
+
+## Supermarket Sales Performance
+### Overview
+This report provides a sales report and product analysis to visualize sales performance. Key features include the gauges with targets for sales and orders, as well as the sales performance breakdown by food category. Additionally, in the Product Analysis report, you can interact with the donut chart to filter the report by different product categories.
+
+The project folder also contains numerous DAX calculations that determine the total number of orders (by filtering out returns), the item with the highest wholesale price, and the item with the highest loss rate, as well as two simple calculations to set sales and order targets. The folder also contains notes on the research questions considered when analyzing the data.
+
+### Data Sources
+Data was downloaded from Kaggle and saved locally:
+[Supermarket Sales Data](https://www.kaggle.com/datasets/yapwh1208/supermarket-sales-data?select=annex1.csv)
