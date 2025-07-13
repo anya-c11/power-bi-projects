@@ -8,6 +8,7 @@ This repository contains a number of Power BI projects (currently in progress). 
 - [Patient Satisfaction](#patientsatisfaction)
 - [Supermarket Sales Performance](#supermarketsalesperformance)
 
+...snip...
 <a name="patientadmissions"/>
 ## Patient Admissions
 ### Overview
@@ -19,6 +20,7 @@ The project folder also contains a DAX calculation that finds the most frequent 
 Data was downloaded from Kaggle and saved locally:
 [Healthcare Dataset](https://www.kaggle.com/datasets/eduardolicea/healthcare-dataset)
 
+...snip...
 <a name="patientsatisfaction"/>
 ## Patient Satisfaction
 ### Overview
@@ -30,6 +32,7 @@ The project folder also contains DAX calculations that determine the average sat
 Data was downloaded from Kaggle and saved locally:
 [Patient Satisfaction - Health System Dataset](https://www.kaggle.com/datasets/gabrielsantello/patient-satisfaction-health-system-dataset)
 
+...snip...
 <a name="supermarketsalesperformance"/>
 ## Supermarket Sales Performance
 ### Overview
