@@ -1,0 +1,5 @@
+MaxLossItem = 
+CALCULATE(
+    FIRSTNONBLANK(avg_loss_rate_per_item[Item Name], 1),
+    avg_loss_rate_per_item[Loss Rate (%)] = MAX(avg_loss_rate_per_item[Loss Rate (%)])
+)

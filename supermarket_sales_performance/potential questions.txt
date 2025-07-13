@@ -1,0 +1,16 @@
+- Split by Sales Report and Product Analysis
+
+SALES
+- total profit and number of orders (gauge and make up targets)
+- sales over time with quantity sold with a filter for discounts (line)
+- sales by product category with quantity and unit selling price (new column) (bar chart) --> drillthrough to see individual products for that category
+
+
+PRODUCTS
+- item with highest loss rate (card)
+- item with highest wholesale price (card)
+- top 10 products sold (column chart)
+- product wholesale prices over time (line)
+- max wholesale price per category (with no. of items in tooltips --> click on slices to filter)
+
+--> can also add more pages (drillthrough)

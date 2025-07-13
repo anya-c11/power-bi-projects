@@ -1,0 +1,5 @@
+MaxWholesalePrice = 
+CALCULATE(
+    FIRSTNONBLANK(products[Item Name], 1),
+    product_prices[Wholesale Price (RMB/kg)] = MAX(product_prices[Wholesale Price (RMB/kg)])
+)

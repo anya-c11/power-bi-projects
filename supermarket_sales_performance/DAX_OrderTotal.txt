@@ -1,0 +1,1 @@
+OrderTotal = COUNTROWS(FILTER(sales_records, sales_records[Sale or Return] = "sale"))
