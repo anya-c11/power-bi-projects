@@ -8,8 +8,7 @@ This repository contains a number of Power BI projects (currently in progress). 
 - [Patient Satisfaction](#patientsatisfaction)
 - [Supermarket Sales Performance](#supermarketsalesperformance)
 
-...snip...
-<a name="patientadmissions"/>
+<a name="patientadmissions"/></a>
 ## Patient Admissions
 ### Overview
 This report provides an overview of patient admissions to several hospitals to identify patient characteristics and potential issues in hospital capacity. Key features include the drill-through capability in the 'Admissions over Time' chart and the slicer to view different hospitals or all of them at once.
@@ -20,8 +19,7 @@ The project folder also contains a DAX calculation that finds the most frequent 
 Data was downloaded from Kaggle and saved locally:
 [Healthcare Dataset](https://www.kaggle.com/datasets/eduardolicea/healthcare-dataset)
 
-...snip...
-<a name="patientsatisfaction"/>
+<a name="patientsatisfaction"/></a>
 ## Patient Satisfaction
 ### Overview
 This report provides an overview of patient satisfaction at a hospital to identify common issues faced by patients. Key features include the KPIs and the 'Feedback over Time' chart, which shows how different metrics compare to one another on a temporal scale.
@@ -32,8 +30,7 @@ The project folder also contains DAX calculations that determine the average sat
 Data was downloaded from Kaggle and saved locally:
 [Patient Satisfaction - Health System Dataset](https://www.kaggle.com/datasets/gabrielsantello/patient-satisfaction-health-system-dataset)
 
-...snip...
-<a name="supermarketsalesperformance"/>
+<a name="supermarketsalesperformance"/></a>
 ## Supermarket Sales Performance
 ### Overview
 This report provides a sales report and product analysis to visualize sales performance. Key features include the gauges with targets for sales and orders, as well as the sales performance breakdown by food category. Additionally, in the Product Analysis report, you can interact with the donut chart to filter the report by different product categories.
